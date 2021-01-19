@@ -6,9 +6,11 @@ export default {
 	Document: ({ Html, Head, Body, children, state: { siteData, renderMeta } }) => (
 		<Html lang="en-US">
 			<Head>
+				<title>Greg Lorenzen</title>
 				<meta charSet="UTF-8" />
 				<meta name="viewport" content="width=device-width, intital-scale=1" />
-				<meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+				<meta httpEquiv="X-UA-Compatible" content="IE=edge"></meta>
+				<link rel="shortcut icon" type="image/png" href="/favicon.png" />
 			</Head>
 			<Body>{children}</Body>
 		</Html>
