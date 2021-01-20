@@ -3,6 +3,7 @@ import React from "react";
 import Section from "../components/Section";
 import Row from "../components/Row";
 import ImageGallery from "../components/ImageGallery";
+import Divider from "../components/Divider";
 
 import jackRyanImg1 from "../img/jack-ryan/jack_ryan_0.png";
 import jackRyanImg2 from "../img/jack-ryan/jack_ryan_1.png";
@@ -38,7 +39,7 @@ export default () => {
 					<h1 style={{ textAlign: "center", textTransform: "uppercase" }}>
 						Greg Lorenzen
 					</h1>
-					<hr style={{ width: "200px", border: "1px solid #59564F" }} />
+					<Divider primary />
 					<h4 className="subheading">Web &amp; Software Developer</h4>
 				</Row>
 			</Section>
