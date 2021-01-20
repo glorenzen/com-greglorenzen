@@ -4,7 +4,7 @@ import { Root, Routes, addPrefetchExcludes } from "react-static";
 import { Link, Router } from "components/Router";
 
 import Button from "../src/components/Button";
-import logo from "./img/logo_400x400.png";
+import logo from "./img/logo/logo_400x400.png";
 
 import "./app.css";
 
