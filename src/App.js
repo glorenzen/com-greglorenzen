@@ -3,7 +3,7 @@ import { Root, Routes, addPrefetchExcludes } from "react-static";
 
 import { Link, Router } from "components/Router";
 
-import Button from "../src/components/Button";
+import Button from "./components/styled/Button";
 import logo from "./img/logo/logo_400x400.png";
 
 import "./app.css";
@@ -18,7 +18,9 @@ function App() {
 				<div className="header">
 					<div className="header-content">
 						<img src={logo} className="logo" />
-						<Button text="Contact" link="mailto:gregorylorenzen@gmail.com" />
+						<Button as="a" href="mailto:gregorylorenzen@gmail.com">
+							Contact
+						</Button>
 					</div>
 				</div>
 				<div className="main">

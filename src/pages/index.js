@@ -1,9 +1,9 @@
 import React from "react";
 
-import Section from "../components/Section";
-import Row from "../components/Row";
+import Section from "../components/styled/Section";
+import Row from "../components/styled/Row";
 import ImageGallery from "../components/ImageGallery";
-import Divider from "../components/Divider";
+import Divider from "../components/styled/Divider";
 
 import jackRyanImg1 from "../img/jack-ryan/jack_ryan_0.png";
 import jackRyanImg2 from "../img/jack-ryan/jack_ryan_1.png";

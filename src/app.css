@@ -106,16 +106,6 @@ h5 {
 	justify-content: space-between;
 }
 
-.section {
-	padding: 40px 0;
-}
-
-.row {
-	padding: 20px 0;
-	margin: 0 auto;
-	width: 90%;
-}
-
 .logo {
 	width: 100px;
 	margin: 0 auto;
@@ -125,21 +115,6 @@ h5 {
 	grid-area: main;
 	background-color: #f7f7f7;
 	overflow-y: scroll;
-}
-
-.button-wrapper {
-	text-align: center;
-	border: 2px solid #d87b4f;
-	padding: 10px 20px;
-	cursor: pointer;
-}
-
-.button-wrapper a {
-	text-decoration: none;
-	text-align: center;
-	color: #d87b4f;
-	font-weight: bold;
-	font-size: 24px;
 }
 
 .gallery {
