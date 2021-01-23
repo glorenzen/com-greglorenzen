@@ -6,6 +6,10 @@ const Column = styled.div`
 	flex-basis: 100%;
 	flex: 1;
 	margin-right: 30px;
+
+	@media (max-width: 1024px) {
+		margin-right: 0;
+	}
 `;
 
 export default Column;

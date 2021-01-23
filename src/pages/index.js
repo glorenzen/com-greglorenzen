@@ -5,17 +5,10 @@ import Row from "../components/styled/Row";
 import Column from "../components/styled/Column";
 import Divider from "../components/styled/Divider";
 
-import jackRyanImg1 from "../img/jack-ryan/jack_ryan_0.png";
-import jackRyanImg2 from "../img/jack-ryan/jack_ryan_1.png";
-import jackRyanImg3 from "../img/jack-ryan/jack_ryan_2.png";
-import jackRyanImg4 from "../img/jack-ryan/jack_ryan_3.png";
-import jackRyanImg5 from "../img/jack-ryan/jack_ryan_4.png";
-import jackRyanImg6 from "../img/jack-ryan/jack_ryan_5.png";
-import jackRyanImg7 from "../img/jack-ryan/jack_ryan_6.png";
-import jackRyanImg8 from "../img/jack-ryan/jack_ryan_7.png";
-import jackRyanImg9 from "../img/jack-ryan/jack_ryan_8.png";
-import jackRyanImg10 from "../img/jack-ryan/jack_ryan_9.png";
-import jackRyanImg11 from "../img/jack-ryan/jack_ryan_10.png";
+import jackRyanImg from "../img/jack-ryan/jack_ryan_8.png";
+import avesImg from "../img/aves/aves-all.png";
+import cowboysImg from "../img/dallas-cowboys/QB-Players-All-2.png";
+import bunimMurrayImg from "../img/bunim-murray/bunim-murray-combined.png";
 
 export default () => {
 	return (
@@ -42,7 +35,7 @@ export default () => {
 				</Row>
 				<Row>
 					<Column>
-						<img src={jackRyanImg9} style={{ maxWidth: "100%" }} />
+						<img src={jackRyanImg} style={{ maxWidth: "100%" }} />
 					</Column>
 					<Column>
 						<p style={{ margin: "0px" }}>
@@ -63,6 +56,71 @@ export default () => {
 							display. The second application was built with ReactJS, for the frontend
 							to display the videos, and used physical buttons connected to an Arduino
 							to trigger each corresponding video.
+						</p>
+					</Column>
+				</Row>
+			</Section>
+			<Section>
+				<Row>
+					<h4>Amazon Prime Experience - A Very English Scandal</h4>
+				</Row>
+				<Row>
+					<Column>
+						<img src={avesImg} style={{ maxWidth: "100%" }} />
+					</Column>
+					<Column>
+						<p style={{ margin: "0px" }}>
+							Based on the Amazon Original series “A Very English Scandal”, this
+							experience allowed attendees to freely walk through a room modeled after
+							key locations from the series, including the courtroom. My part on this
+							project involved developing an application where attendees were able to
+							type out love letters and send them via email to someone. The app
+							included a front end built using ReactJS as well as a server built using
+							Node and WebSockets. The server received the love letter text and
+							rendered it on an Instagram sized background image using HTML Canvas and
+							then sent it to the recipient via email.
+						</p>
+					</Column>
+				</Row>
+			</Section>
+			<Section>
+				<Row>
+					<h4>Bunim/Murray Trivia</h4>
+				</Row>
+				<Row>
+					<Column>
+						<img src={bunimMurrayImg} style={{ maxWidth: "100%" }} />
+					</Column>
+					<Column>
+						<p style={{ margin: "0px" }}>
+							Bunim/Murray Productions are an Emmy Award-winning company that produce
+							reality television shows such as Road Rules, The Simple Life and
+							Starting Over. I was tasked with building a trivia application in which
+							questions were based off their television shows. The app included a
+							front end built with ReactJS and a server built with NodeJS connected to
+							a DMX universe. When a correct answer was chosen by the user, the React
+							application would send a message back to the server via WebSockets which
+							would then trigger a DMX light to turn on related to the question’s
+							corresponding television show.
+						</p>
+					</Column>
+				</Row>
+			</Section>
+			<Section>
+				<Row>
+					<h4>Dallas Cowboys Multitaction Experience</h4>
+				</Row>
+				<Row>
+					<Column>
+						<img src={cowboysImg} style={{ maxWidth: "100%" }} />
+					</Column>
+					<Column>
+						<p style={{ margin: "0px" }}>
+							Another app built with using MT Showcase, the Dallas Cowboys
+							Multitaction Experience allows users who take the tour of the Cowboys
+							facility to interact with 15 Multitaction screens working as a single
+							display. Users can view player stats and videos of some of the Cowboys’
+							best Quarterbacks, Runningbacks or Wide Receivers from over the years.
 						</p>
 					</Column>
 				</Row>

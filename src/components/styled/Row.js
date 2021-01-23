@@ -15,6 +15,14 @@ const Row = styled.div`
 
 	@media (max-width: 1024px) {
 		flex-direction: column;
+
+		& ${Column} {
+			margin-bottom: 30px;
+		}
+
+		& ${Column}:last-child {
+			margin-bottom: 0 !important;
+		}
 	}
 `;
 
