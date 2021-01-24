@@ -20,6 +20,11 @@ export default () => {
 			label: "Last Name"
 		},
 		{
+			type: "email",
+			name: "email",
+			label: "Email"
+		},
+		{
 			type: "textarea",
 			name: "message",
 			label: "Message"
