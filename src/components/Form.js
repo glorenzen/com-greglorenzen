@@ -101,6 +101,7 @@ const Form = (props) => {
 											rows="7"
 											value={inputState[name]}
 											onChange={handleInputChange}
+											name={name}
 										/>
 									) : (
 										<FieldInput
