@@ -17,10 +17,12 @@ function App() {
 			<div className="grid-container">
 				<div className="header">
 					<div className="header-content">
-						<img src={logo} className="logo" />
-						<Button as="a" href="mailto:gregorylorenzen@gmail.com">
-							Contact
-						</Button>
+						<Link to="/" style={{ textAlign: "center" }}>
+							<img src={logo} className="logo" />
+						</Link>
+						<Link to="/contact">
+							<Button>Contact</Button>
+						</Link>
 					</div>
 				</div>
 				<div className="main">
