@@ -3,6 +3,7 @@ import Form from "../components/Form";
 
 import Section from "../components/styled/Section";
 import Row from "../components/styled/Row";
+import Column from "../components/styled/Column";
 
 export default () => {
 	const contactFields = [
@@ -27,7 +28,9 @@ export default () => {
 		<div>
 			<Section>
 				<Row>
-					<Form headerText="Contact" formFields={contactFields} width="400px" />
+					<Column>
+						<Form headerText="Contact" formFields={contactFields} width="400px" />
+					</Column>
 				</Row>
 			</Section>
 		</div>

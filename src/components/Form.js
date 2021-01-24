@@ -11,6 +11,10 @@ const Header = styled.h3``;
 
 const StyledForm = styled.form`
 	width: ${(props) => (props.width ? props.width : "auto")};
+
+	@media (max-width: 1024px) {
+		margin: 0 auto;
+	}
 `;
 
 const Fields = styled.ul`
@@ -24,6 +28,7 @@ const Field = styled.li`
 	display: flex;
 	flex-direction: column;
 	width: ${(props) => props.width};
+	margin-bottom: 20px;
 `;
 
 const FieldLabel = styled.label`
@@ -32,9 +37,17 @@ const FieldLabel = styled.label`
 	color: #272521;
 `;
 
-const FieldInput = styled.input``;
+const FieldInput = styled.input`
+	padding: 10px;
+	border: 1px solid #272521;
+	font-size: 16px;
+`;
 
-const FieldTextArea = styled.textarea``;
+const FieldTextArea = styled.textarea`
+	padding: 10px;
+	border: 1px solid #272521;
+	font-size: 16px;
+`;
 
 const Footer = styled.div`
 	margin-top: 25px;
@@ -99,7 +112,9 @@ const Form = (props) => {
 					: null}
 			</Fields>
 			<Footer>
-				<Button type="submit">Submit</Button>
+				<Button type="submit" primary>
+					Submit
+				</Button>
 			</Footer>
 		</StyledForm>
 	);
