@@ -38,8 +38,6 @@ export default () => {
 	};
 
 	const handleSubmit = (e, state) => {
-		console.log(state);
-
 		fetch("/", {
 			method: "POST",
 			headers: { "Content-Type": "application/x-www-form-urlencoded" },
