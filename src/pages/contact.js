@@ -56,6 +56,7 @@ export default () => {
 								width="400px"
 								netlify={true}
 								handleSubmit={handleSubmit}
+								name="contact"
 							/>
 						) : (
 							<h2 style={{ textAlign: "center" }}>

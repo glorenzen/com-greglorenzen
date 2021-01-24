@@ -54,7 +54,7 @@ const Footer = styled.div`
 `;
 
 const Form = (props) => {
-	const { headerText, formFields, width, netlify, handleSubmit } = props;
+	const { headerText, formFields, width, netlify, handleSubmit, name } = props;
 	const [fields, setFields] = useState(formFields);
 
 	const inputValues = useMemo(() => {
@@ -82,6 +82,7 @@ const Form = (props) => {
 			width={width}
 			data-netlify={netlify}
 			onSubmit={(e) => handleSubmit(e, inputState)}
+			name={name}
 		>
 			<HeaderWrapper>
 				<Header>{headerText}</Header>
@@ -114,6 +115,9 @@ const Form = (props) => {
 							);
 					  })
 					: null}
+				<Field>
+					<input type="hidden" name="form-name" value="contact" />
+				</Field>
 			</Fields>
 			<Footer>
 				<Button type="submit" primary>
