@@ -11,6 +11,7 @@ const Header = styled.h3``;
 
 const StyledForm = styled.form`
 	width: ${(props) => (props.width ? props.width : "auto")};
+	max-width: 400px;
 
 	@media (max-width: 1024px) {
 		margin: 0 auto;

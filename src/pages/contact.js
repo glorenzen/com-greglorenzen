@@ -58,10 +58,10 @@ export default () => {
 							<Form
 								headerText="Contact"
 								formFields={contactFields}
-								width="400px"
 								netlify={true}
 								handleSubmit={handleSubmit}
 								name="contact"
+								width="75%"
 							/>
 						) : (
 							<h2 style={{ textAlign: "center" }}>
