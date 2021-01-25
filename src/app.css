@@ -145,7 +145,7 @@ h5 {
 
 @media (max-width: 1024px) {
 	.grid-container {
-		grid-template-rows: 150px 1fr;
+		grid-template-rows: 100px 1fr;
 		grid-template-columns: auto;
 		grid-template-areas:
 			"header header header header"
@@ -162,6 +162,7 @@ h5 {
 
 	.logo {
 		margin: 0;
+		width: 60px;
 	}
 }
 

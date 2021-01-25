@@ -17,7 +17,10 @@ function App() {
 			<div className="grid-container">
 				<div className="header">
 					<div className="header-content">
-						<Link to="/" style={{ textAlign: "center" }}>
+						<Link
+							to="/"
+							style={{ textAlign: "center", alignItems: "center", display: "flex" }}
+						>
 							<img src={logo} className="logo" />
 						</Link>
 						<Link to="/contact">
