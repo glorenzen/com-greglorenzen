@@ -116,11 +116,11 @@ export default () => {
 					</Column>
 					<Column>
 						<p style={{ margin: "0px" }}>
-							Another app built with using MT Showcase, the Dallas Cowboys
-							Multitaction Experience allows users who take the tour of the Cowboys
-							facility to interact with 15 Multitaction screens working as a single
-							display. Users can view player stats and videos of some of the Cowboys’
-							best Quarterbacks, Runningbacks or Wide Receivers from over the years.
+							Another app built using MT Showcase, the Dallas Cowboys Multitaction
+							Experience allows users who take the tour of the Cowboys facility to
+							interact with 15 Multitaction screens working as a single display. Users
+							can view player stats and videos of some of the Cowboys’ best
+							Quarterbacks, Runningbacks or Wide Receivers from over the years.
 						</p>
 					</Column>
 				</Row>
